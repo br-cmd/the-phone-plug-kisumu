@@ -226,7 +226,7 @@ nav.main-nav a.active{color:var(--gold);background:rgba(242,183,5,0.1);}
     linear-gradient(180deg, rgba(11,23,48,0.55) 0%, rgba(11,23,48,0.35) 35%, rgba(11,23,48,0.92) 100%);
   z-index:1;
 }
-.hero-inner{position:relative;z-index:2;padding:100px 0 56px;width:100%;}
+.hero-inner{position:relative;z-index:2;padding:64px 0 56px;width:100%;}
 .hero-badge{
   display:inline-flex;align-items:center;gap:8px;
   background:rgba(242,183,5,0.14);border:1px solid rgba(242,183,5,0.5);
@@ -629,7 +629,7 @@ footer{background:var(--navy);color:rgba(255,255,255,0.7);padding-top:64px;}
 @media (max-width:600px){
   section{padding:56px 0;}
   .hero{min-height:560px;}
-  .hero-inner{padding-top:120px;}
+  .hero-inner{padding-top:76px;}
   .stat-row{gap:18px;}
   .stat b{font-size:22px;}
   .offer-grid{grid-template-columns:1fr;}
